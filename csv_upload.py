@@ -1,14 +1,17 @@
 import pymysql
+from dotenv import load_dotenv
+import os
 import pandas as pd
 
 # Load CSV
+load_dotenv()
 df = pd.read_csv('/home/swiftcsv/mysite/medicine_inventory_200.csv')
 
 # Connect to MySQL
 connection = pymysql.connect(
     host='swiftcsv.mysql.pythonanywhere-services.com',
     user='swiftcsv',
-    password='pythonanywhereman.com9836APE',
+    password=os.getenv("PYMYSQL_PASS"),
     database='swiftcsv$meddb'
 )
 
