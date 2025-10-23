@@ -1,0 +1,201 @@
+medicine_id,name,composition,category,supplier_name,supplier_contact,batch_no,mfg_date,expiry_date,pack_size,unit_price,stock_quantity,reorder_level,location_rack,prescription_required,added_on
+MED001,Azithromycin,Azithromycin 500mg,Antibiotic,Glenmark,+918165365324,GLE5294,2024-10-24,2026-09-14,Strip of 10 tablets,114.37,292,39,Shelf 2,TRUE,2025-01-05
+MED002,Calpol,Paracetamol 500mg,Analgesic,Mankind Pharma,+919006052064,MAN2740,2024-12-10,2026-04-21,Strip of 10 tablets,88.52,22,11,Shelf 2,TRUE,2024-12-14
+MED003,Ciprofloxacin,Ciprofloxacin 500mg,Antibiotic,Sun Pharma,+917327348075,SUN9905,2024-09-17,2026-03-28,Strip of 10 tablets,209.66,346,45,Rack A2,FALSE,2024-11-18
+MED004,Montek LC,Montelukast + Levocetirizine,Antiallergic,Zydus,+917635122161,ZYD7242,2023-11-25,2026-04-11,Strip of 10 tablets,204.49,397,11,Fridge 1,TRUE,2025-05-26
+MED005,Allegra,Fexofenadine 120mg,Antihistamine,Cipla,+918780587299,CIP9237,2023-06-09,2024-11-19,Strip of 10 tablets,246.13,343,24,Rack C1,FALSE,2024-08-18
+MED006,Atorvastatin,Atorvastatin 10mg,Lipid Lowering,Mankind Pharma,+919096251564,MAN3546,2023-11-17,2026-01-05,Strip of 10 tablets,42.87,292,18,Shelf 2,FALSE,2025-04-12
+MED007,Calpol,Paracetamol 500mg,Analgesic,Abbott India,+917913824063,ABB3178,2023-08-22,2025-09-06,Strip of 10 tablets,252.01,119,34,Rack C1,FALSE,2024-08-25
+MED008,Augmentin,Amoxicillin + Clavulanic Acid,Antibiotic,Zydus,+918228162044,ZYD2736,2023-08-25,2024-11-11,Strip of 10 tablets,315.27,81,41,Rack B1,TRUE,2024-08-09
+MED009,Losartan,Losartan 50mg,Antihypertensive,Intas,+918749996284,INT5586,2024-10-29,2026-05-21,Strip of 10 tablets,166.88,85,29,Shelf 1,TRUE,2025-08-24
+MED010,Omeprazole,Omeprazole 20mg,Antacid,Abbott India,+918056208585,ABB9150,2024-01-04,2025-08-27,Strip of 10 tablets,151.59,370,35,Rack A2,TRUE,2024-11-27
+MED011,Ecosprin,Aspirin 75mg,Antiplatelet,Dr. Reddy's,+917081802437,DR.2823,2023-06-07,2024-09-03,Strip of 10 tablets,224.15,294,43,Rack A1,TRUE,2025-07-20
+MED012,Calpol,Paracetamol 500mg,Analgesic,Zydus,+919054826025,ZYD9205,2023-04-21,2025-04-15,Strip of 10 tablets,105.72,245,44,Rack A1,FALSE,2025-05-08
+MED013,Omeprazole,Omeprazole 20mg,Antacid,Glenmark,+918024949448,GLE9899,2023-11-20,2025-05-20,Strip of 10 tablets,276.45,135,44,Rack A2,TRUE,2024-06-18
+MED014,Azithromycin,Azithromycin 500mg,Antibiotic,Lupin,+917473357930,LUP3258,2023-01-28,2024-03-08,Strip of 10 tablets,143.02,363,41,Shelf 3,TRUE,2025-02-20
+MED015,Amoxicillin,Amoxicillin 250mg,Antibiotic,Abbott India,+917716763832,ABB2096,2024-07-13,2026-04-20,Strip of 10 tablets,224.76,376,11,Fridge 1,TRUE,2025-01-08
+MED016,Metformin,Metformin 500mg,Antidiabetic,Zydus,+919938344286,ZYD3243,2023-09-21,2025-04-16,Strip of 10 tablets,165.32,345,38,Shelf 1,FALSE,2024-12-21
+MED017,Metformin,Metformin 500mg,Antidiabetic,Dr. Reddy's,+917125715187,DR.6622,2023-06-26,2024-11-29,Strip of 10 tablets,136.63,227,14,Shelf 2,FALSE,2024-12-21
+MED018,Diclofenac,Diclofenac 50mg,Pain Relief,Dr. Reddy's,+919489835407,DR.5468,2024-03-04,2026-01-11,Strip of 10 tablets,155.82,69,37,Rack A1,TRUE,2025-01-31
+MED019,Amoxicillin,Amoxicillin 250mg,Antibiotic,Glenmark,+919639425551,GLE1334,2024-08-19,2026-10-08,Strip of 10 tablets,143.13,144,30,Rack A1,FALSE,2025-08-11
+MED020,Metformin,Metformin 500mg,Antidiabetic,Dr. Reddy's,+918989392504,DR.6983,2023-07-30,2025-02-26,Strip of 10 tablets,160.27,42,27,Rack B1,FALSE,2024-10-29
+MED021,Pantoprazole,Pantoprazole 40mg,Antacid,Intas,+919911274387,INT4639,2023-09-30,2026-01-11,Strip of 10 tablets,146.54,129,15,Rack B2,TRUE,2024-11-14
+MED022,Atorvastatin,Atorvastatin 10mg,Lipid Lowering,Cipla,+917656260084,CIP9091,2024-04-10,2025-10-30,Strip of 10 tablets,162.36,33,44,Rack A2,FALSE,2024-08-19
+MED023,Atorvastatin,Atorvastatin 10mg,Lipid Lowering,Torrent Pharma,+917770991467,TOR3002,2023-07-22,2024-11-21,Strip of 10 tablets,26.7,91,40,Rack A2,FALSE,2024-09-15
+MED024,Azithromycin,Azithromycin 500mg,Antibiotic,Dr. Reddy's,+919249785104,DR.5106,2024-10-18,2026-06-01,Strip of 10 tablets,54.24,70,11,Fridge 1,FALSE,2024-09-24
+MED025,Atorvastatin,Atorvastatin 10mg,Lipid Lowering,Mankind Pharma,+918759452146,MAN8847,2024-06-06,2026-02-04,Strip of 10 tablets,50.72,381,26,Fridge 1,TRUE,2024-08-25
+MED026,Diclofenac,Diclofenac 50mg,Pain Relief,Mankind Pharma,+919475921215,MAN1162,2024-07-08,2026-01-28,Strip of 10 tablets,229.29,170,42,Rack C1,FALSE,2025-03-02
+MED027,Glycomet,Metformin 500mg,Antidiabetic,Sun Pharma,+919410179218,SUN1634,2023-05-08,2025-05-05,Strip of 10 tablets,295.15,427,40,Rack B2,FALSE,2025-03-03
+MED028,Diclofenac,Diclofenac 50mg,Pain Relief,Cipla,+917606847449,CIP5013,2023-07-31,2025-11-06,Strip of 10 tablets,256.96,252,39,Shelf 2,TRUE,2025-03-21
+MED029,Glycomet,Metformin 500mg,Antidiabetic,Lupin,+917096067510,LUP5005,2024-11-13,2026-01-20,Strip of 10 tablets,235.67,193,26,Rack A1,FALSE,2024-10-02
+MED030,Azithromycin,Azithromycin 500mg,Antibiotic,Dr. Reddy's,+919739668833,DR.3648,2023-09-24,2024-11-06,Strip of 10 tablets,186.62,136,50,Fridge 1,FALSE,2025-05-23
+MED031,Pantoprazole,Pantoprazole 40mg,Antacid,Cipla,+917228018678,CIP6290,2023-07-22,2025-07-08,Strip of 10 tablets,139.95,460,28,Counter 1,FALSE,2025-01-08
+MED032,Paracetamol,Paracetamol 500mg,Analgesic,Intas,+919001623236,INT2421,2024-01-11,2025-08-07,Strip of 10 tablets,327.78,279,42,Counter 1,FALSE,2025-01-02
+MED033,Calpol,Paracetamol 500mg,Analgesic,Zydus,+917232987511,ZYD2491,2024-11-21,2026-04-02,Strip of 10 tablets,29.28,56,44,Rack B2,TRUE,2025-01-02
+MED034,Metformin,Metformin 500mg,Antidiabetic,Lupin,+917432706776,LUP4652,2023-10-27,2025-01-04,Strip of 10 tablets,264.65,323,27,Rack B1,TRUE,2025-08-09
+MED035,Azithromycin,Azithromycin 500mg,Antibiotic,Intas,+918554405732,INT1209,2024-03-04,2026-01-17,Strip of 10 tablets,224.15,348,25,Rack A2,TRUE,2024-10-27
+MED036,Amoxicillin,Amoxicillin 250mg,Antibiotic,Glenmark,+918425134569,GLE1116,2024-12-02,2026-08-02,Strip of 10 tablets,39.47,235,36,Fridge 1,FALSE,2024-12-26
+MED037,Losartan,Losartan 50mg,Antihypertensive,Lupin,+919755576920,LUP6735,2023-07-13,2024-09-09,Strip of 10 tablets,271.98,369,34,Rack A1,FALSE,2024-08-06
+MED038,Telma,Telmisartan 40mg,Antihypertensive,Sun Pharma,+919147626820,SUN1676,2023-09-13,2026-02-27,Strip of 10 tablets,219.15,227,20,Rack C1,FALSE,2025-01-15
+MED039,Paracetamol,Paracetamol 500mg,Analgesic,Mankind Pharma,+917437767624,MAN5443,2024-07-12,2025-08-19,Strip of 10 tablets,149.7,87,22,Counter 1,FALSE,2025-04-27
+MED040,Calpol,Paracetamol 500mg,Analgesic,Abbott India,+918650105799,ABB5000,2023-05-31,2024-09-12,Strip of 10 tablets,209.72,462,21,Counter 1,TRUE,2025-01-08
+MED041,Losartan,Losartan 50mg,Antihypertensive,Cipla,+918773800619,CIP3001,2024-03-25,2025-10-14,Strip of 10 tablets,176.06,442,43,Rack C1,TRUE,2025-09-30
+MED042,Omeprazole,Omeprazole 20mg,Antacid,Mankind Pharma,+918606390305,MAN1160,2024-04-09,2025-08-29,Strip of 10 tablets,296.06,28,19,Shelf 2,FALSE,2024-06-29
+MED043,Calpol,Paracetamol 500mg,Analgesic,Mankind Pharma,+918452507808,MAN1532,2023-09-01,2025-09-19,Strip of 10 tablets,195.45,269,21,Rack B2,TRUE,2025-03-06
+MED044,Allegra,Fexofenadine 120mg,Antihistamine,Abbott India,+919923990256,ABB6143,2024-10-04,2026-10-22,Strip of 10 tablets,281.02,104,13,Counter 1,FALSE,2025-07-08
+MED045,Losartan,Losartan 50mg,Antihypertensive,Cipla,+917482268741,CIP9600,2023-02-17,2024-09-04,Strip of 10 tablets,37.79,285,30,Fridge 1,TRUE,2024-08-29
+MED046,Ciprofloxacin,Ciprofloxacin 500mg,Antibiotic,Intas,+917091820402,INT1688,2024-03-15,2025-06-21,Strip of 10 tablets,210.99,106,17,Fridge 1,FALSE,2025-05-11
+MED047,Cetirizine,Cetirizine 10mg,Antihistamine,Dr. Reddy's,+917715482905,DR.2610,2023-06-04,2024-11-22,Strip of 10 tablets,73.54,58,26,Rack A2,FALSE,2024-12-15
+MED048,Calpol,Paracetamol 500mg,Analgesic,Cipla,+919476164651,CIP3102,2024-11-25,2026-05-29,Strip of 10 tablets,48.78,253,45,Rack A1,FALSE,2024-06-18
+MED049,Dolo 650,Paracetamol 650mg,Analgesic,Cipla,+919582020435,CIP4085,2023-04-17,2025-04-11,Strip of 10 tablets,346.47,70,10,Rack A1,FALSE,2024-06-25
+MED050,Montek LC,Montelukast + Levocetirizine,Antiallergic,Sun Pharma,+917405464834,SUN1132,2023-11-02,2025-09-16,Strip of 10 tablets,241.9,396,45,Counter 1,FALSE,2024-09-19
+MED051,Pantoprazole,Pantoprazole 40mg,Antacid,Abbott India,+919949577342,ABB2927,2023-05-19,2024-09-24,Strip of 10 tablets,75.21,481,44,Rack B2,TRUE,2024-06-06
+MED052,Ciprofloxacin,Ciprofloxacin 500mg,Antibiotic,Glenmark,+919140133739,GLE6581,2023-10-19,2025-05-28,Strip of 10 tablets,294.27,292,18,Rack B2,TRUE,2024-12-11
+MED053,Telma,Telmisartan 40mg,Antihypertensive,Abbott India,+917777119461,ABB2097,2024-09-04,2026-01-19,Strip of 10 tablets,135.0,132,33,Shelf 2,FALSE,2024-10-20
+MED054,Atorvastatin,Atorvastatin 10mg,Lipid Lowering,Intas,+917717498065,INT8641,2023-04-03,2024-08-14,Strip of 10 tablets,41.14,287,46,Rack B2,TRUE,2024-11-10
+MED055,Augmentin,Amoxicillin + Clavulanic Acid,Antibiotic,Abbott India,+917772335149,ABB2568,2024-04-26,2026-02-23,Strip of 10 tablets,179.8,282,10,Rack B2,TRUE,2025-03-20
+MED056,Ecosprin,Aspirin 75mg,Antiplatelet,Mankind Pharma,+917658898740,MAN8943,2023-07-10,2024-09-14,Strip of 10 tablets,249.25,107,21,Rack B1,FALSE,2025-03-30
+MED057,Cetirizine,Cetirizine 10mg,Antihistamine,Dr. Reddy's,+917674221320,DR.5565,2023-03-31,2025-04-02,Strip of 10 tablets,217.75,384,30,Rack B2,FALSE,2024-06-28
+MED058,Augmentin,Amoxicillin + Clavulanic Acid,Antibiotic,Torrent Pharma,+918844501305,TOR7976,2023-07-09,2024-07-16,Strip of 10 tablets,119.73,299,47,Rack A2,FALSE,2025-03-09
+MED059,Metformin,Metformin 500mg,Antidiabetic,Cipla,+919488744729,CIP2223,2024-12-31,2027-05-28,Strip of 10 tablets,146.66,145,19,Counter 1,TRUE,2024-08-31
+MED060,Metformin,Metformin 500mg,Antidiabetic,Dr. Reddy's,+919168886625,DR.8966,2023-12-24,2025-04-29,Strip of 10 tablets,151.58,496,50,Fridge 1,FALSE,2024-08-17
+MED061,Losartan,Losartan 50mg,Antihypertensive,Intas,+918755031309,INT5746,2024-12-03,2027-01-16,Strip of 10 tablets,200.82,45,42,Rack C1,FALSE,2024-07-23
+MED062,Omeprazole,Omeprazole 20mg,Antacid,Mankind Pharma,+919913045486,MAN7539,2023-03-06,2025-04-14,Strip of 10 tablets,242.62,298,40,Rack B2,TRUE,2025-09-03
+MED063,Dolo 650,Paracetamol 650mg,Analgesic,Zydus,+917792555480,ZYD9042,2024-07-06,2026-09-05,Strip of 10 tablets,246.63,263,13,Rack A1,TRUE,2024-09-16
+MED064,Glycomet,Metformin 500mg,Antidiabetic,Torrent Pharma,+917809354241,TOR9373,2024-08-31,2026-04-13,Strip of 10 tablets,282.77,202,10,Rack A2,FALSE,2024-08-14
+MED065,Omeprazole,Omeprazole 20mg,Antacid,Torrent Pharma,+918280799458,TOR1004,2023-02-09,2024-04-26,Strip of 10 tablets,201.11,124,43,Rack A1,TRUE,2025-06-11
+MED066,Dolo 650,Paracetamol 650mg,Analgesic,Glenmark,+918941036312,GLE7755,2024-08-18,2025-10-29,Strip of 10 tablets,188.69,366,37,Counter 1,FALSE,2025-02-02
+MED067,Telma,Telmisartan 40mg,Antihypertensive,Mankind Pharma,+918453207438,MAN7462,2023-11-10,2026-01-02,Strip of 10 tablets,136.31,423,50,Fridge 1,TRUE,2025-02-19
+MED068,Ecosprin,Aspirin 75mg,Antiplatelet,Abbott India,+917680125406,ABB2480,2023-05-04,2024-10-14,Strip of 10 tablets,240.68,39,38,Shelf 3,TRUE,2025-05-19
+MED069,Calpol,Paracetamol 500mg,Analgesic,Sun Pharma,+917410773130,SUN1829,2024-12-31,2026-09-19,Strip of 10 tablets,322.86,92,35,Rack A2,TRUE,2025-03-09
+MED070,Azithromycin,Azithromycin 500mg,Antibiotic,Lupin,+918057333009,LUP7902,2023-01-29,2025-05-22,Strip of 10 tablets,170.04,446,42,Rack A1,TRUE,2024-06-02
+MED071,Azithromycin,Azithromycin 500mg,Antibiotic,Sun Pharma,+919802754559,SUN7963,2024-01-04,2025-09-16,Strip of 10 tablets,236.27,143,38,Counter 1,TRUE,2025-02-27
+MED072,Calpol,Paracetamol 500mg,Analgesic,Intas,+917947438711,INT3838,2023-11-10,2025-12-29,Strip of 10 tablets,49.86,477,31,Shelf 3,FALSE,2025-08-06
+MED073,Metformin,Metformin 500mg,Antidiabetic,Cipla,+919915695975,CIP5227,2024-02-20,2026-07-23,Strip of 10 tablets,348.78,355,26,Rack A2,FALSE,2024-10-14
+MED074,Crocin,Paracetamol 500mg,Analgesic,Sun Pharma,+917899668818,SUN5687,2024-10-20,2026-03-24,Strip of 10 tablets,58.11,358,23,Rack C1,FALSE,2024-11-05
+MED075,Pantoprazole,Pantoprazole 40mg,Antacid,Abbott India,+918180431059,ABB9617,2024-01-18,2025-05-18,Strip of 10 tablets,244.88,343,10,Rack A1,FALSE,2025-10-01
+MED076,Calpol,Paracetamol 500mg,Analgesic,Cipla,+919582830080,CIP9195,2023-02-03,2024-12-21,Strip of 10 tablets,114.79,264,33,Rack C1,FALSE,2024-10-24
+MED077,Pantoprazole,Pantoprazole 40mg,Antacid,Glenmark,+919933773924,GLE2103,2023-06-06,2025-02-09,Strip of 10 tablets,339.87,421,11,Shelf 3,FALSE,2024-06-04
+MED078,Diclofenac,Diclofenac 50mg,Pain Relief,Intas,+917072624576,INT3653,2024-04-08,2025-12-17,Strip of 10 tablets,347.91,473,13,Rack C1,FALSE,2024-08-28
+MED079,Augmentin,Amoxicillin + Clavulanic Acid,Antibiotic,Glenmark,+917692782855,GLE8404,2023-05-16,2025-02-13,Strip of 10 tablets,72.32,408,47,Shelf 2,FALSE,2025-09-18
+MED080,Ecosprin,Aspirin 75mg,Antiplatelet,Intas,+917088317519,INT8360,2023-08-15,2025-09-19,Strip of 10 tablets,59.35,266,33,Counter 1,FALSE,2025-05-19
+MED081,Telma,Telmisartan 40mg,Antihypertensive,Lupin,+918166437923,LUP3131,2024-05-29,2026-04-06,Strip of 10 tablets,237.72,276,17,Fridge 1,FALSE,2025-08-05
+MED082,Azithromycin,Azithromycin 500mg,Antibiotic,Mankind Pharma,+919881521308,MAN3039,2023-07-31,2025-06-17,Strip of 10 tablets,185.61,497,39,Fridge 1,FALSE,2025-03-19
+MED083,Glycomet,Metformin 500mg,Antidiabetic,Dr. Reddy's,+917164104575,DR.1267,2024-06-20,2026-01-30,Strip of 10 tablets,28.07,137,29,Rack C1,TRUE,2024-09-08
+MED084,Allegra,Fexofenadine 120mg,Antihistamine,Lupin,+917848056051,LUP6373,2024-12-05,2025-12-07,Strip of 10 tablets,281.66,310,50,Shelf 3,TRUE,2024-11-15
+MED085,Ecosprin,Aspirin 75mg,Antiplatelet,Glenmark,+918100136772,GLE3035,2024-01-06,2025-01-11,Strip of 10 tablets,118.87,91,50,Fridge 1,TRUE,2024-06-30
+MED086,Atorvastatin,Atorvastatin 10mg,Lipid Lowering,Sun Pharma,+917497366121,SUN2631,2024-01-09,2025-11-22,Strip of 10 tablets,241.62,340,45,Shelf 2,TRUE,2025-02-20
+MED087,Ciprofloxacin,Ciprofloxacin 500mg,Antibiotic,Sun Pharma,+918659244398,SUN3966,2023-09-26,2025-09-10,Strip of 10 tablets,89.88,466,22,Rack B2,FALSE,2024-11-11
+MED088,Atorvastatin,Atorvastatin 10mg,Lipid Lowering,Torrent Pharma,+919870295880,TOR2292,2024-01-21,2025-04-04,Strip of 10 tablets,226.09,335,20,Shelf 3,TRUE,2024-12-31
+MED089,Amoxicillin,Amoxicillin 250mg,Antibiotic,Cipla,+918543209433,CIP9236,2023-06-28,2025-12-12,Strip of 10 tablets,86.3,374,25,Shelf 2,FALSE,2024-09-16
+MED090,Amoxicillin,Amoxicillin 250mg,Antibiotic,Mankind Pharma,+917702469336,MAN9837,2023-03-24,2025-05-10,Strip of 10 tablets,251.7,39,11,Shelf 2,TRUE,2025-08-21
+MED091,Calpol,Paracetamol 500mg,Analgesic,Lupin,+919751411589,LUP9198,2023-10-10,2025-06-06,Strip of 10 tablets,200.23,455,29,Rack C1,FALSE,2025-02-09
+MED092,Metformin,Metformin 500mg,Antidiabetic,Mankind Pharma,+918626634697,MAN8174,2024-08-03,2026-10-05,Strip of 10 tablets,307.8,72,39,Rack C1,TRUE,2024-12-19
+MED093,Atorvastatin,Atorvastatin 10mg,Lipid Lowering,Mankind Pharma,+918167382507,MAN4363,2024-05-27,2025-12-08,Strip of 10 tablets,330.86,428,26,Rack B2,FALSE,2025-01-17
+MED094,Azithromycin,Azithromycin 500mg,Antibiotic,Cipla,+918634103400,CIP4210,2024-04-06,2026-01-07,Strip of 10 tablets,308.97,126,31,Rack A1,TRUE,2025-08-16
+MED095,Augmentin,Amoxicillin + Clavulanic Acid,Antibiotic,Torrent Pharma,+919958575680,TOR5523,2024-03-16,2025-07-25,Strip of 10 tablets,310.58,399,15,Rack B2,TRUE,2025-04-02
+MED096,Ciprofloxacin,Ciprofloxacin 500mg,Antibiotic,Abbott India,+919998466375,ABB9199,2023-07-20,2025-01-22,Strip of 10 tablets,84.26,306,46,Rack A1,TRUE,2024-11-03
+MED097,Crocin,Paracetamol 500mg,Analgesic,Dr. Reddy's,+917385275749,DR.9891,2023-12-11,2025-10-27,Strip of 10 tablets,299.92,262,42,Rack B2,TRUE,2025-05-11
+MED098,Allegra,Fexofenadine 120mg,Antihistamine,Mankind Pharma,+917020356698,MAN8615,2024-11-13,2026-05-15,Strip of 10 tablets,315.26,441,28,Fridge 1,TRUE,2024-08-30
+MED099,Paracetamol,Paracetamol 500mg,Analgesic,Dr. Reddy's,+919572284539,DR.5565,2024-07-05,2025-09-10,Strip of 10 tablets,56.36,202,16,Shelf 1,FALSE,2025-06-23
+MED100,Ciprofloxacin,Ciprofloxacin 500mg,Antibiotic,Abbott India,+917155780838,ABB8291,2023-08-21,2024-12-09,Strip of 10 tablets,314.81,346,33,Fridge 1,TRUE,2025-05-19
+MED101,Amoxicillin,Amoxicillin 250mg,Antibiotic,Glenmark,+919193222695,GLE2672,2023-09-19,2025-01-12,Strip of 10 tablets,36.29,88,13,Fridge 1,TRUE,2024-06-25
+MED102,Paracetamol,Paracetamol 500mg,Analgesic,Torrent Pharma,+917402372174,TOR2269,2023-12-11,2025-12-01,Strip of 10 tablets,169.63,318,11,Rack B1,FALSE,2024-07-07
+MED103,Glycomet,Metformin 500mg,Antidiabetic,Zydus,+917794585415,ZYD3388,2024-05-09,2026-03-19,Strip of 10 tablets,75.14,474,27,Shelf 2,TRUE,2024-11-08
+MED104,Losartan,Losartan 50mg,Antihypertensive,Zydus,+919471611111,ZYD7535,2023-06-02,2024-06-14,Strip of 10 tablets,64.86,41,20,Shelf 2,TRUE,2024-08-28
+MED105,Ciprofloxacin,Ciprofloxacin 500mg,Antibiotic,Lupin,+918903057659,LUP7026,2023-08-09,2025-09-27,Strip of 10 tablets,334.18,292,11,Counter 1,FALSE,2025-07-23
+MED106,Allegra,Fexofenadine 120mg,Antihistamine,Intas,+918759507737,INT5877,2023-09-18,2025-12-04,Strip of 10 tablets,156.37,382,19,Fridge 1,TRUE,2025-07-18
+MED107,Metformin,Metformin 500mg,Antidiabetic,Dr. Reddy's,+917665080513,DR.5242,2024-09-11,2026-06-11,Strip of 10 tablets,285.04,319,40,Rack A1,TRUE,2025-08-01
+MED108,Ecosprin,Aspirin 75mg,Antiplatelet,Mankind Pharma,+919947930421,MAN1210,2024-02-10,2026-03-08,Strip of 10 tablets,191.32,289,10,Shelf 1,FALSE,2024-11-07
+MED109,Pantoprazole,Pantoprazole 40mg,Antacid,Dr. Reddy's,+919231165999,DR.4234,2023-03-01,2024-12-23,Strip of 10 tablets,216.49,496,36,Fridge 1,FALSE,2024-08-16
+MED110,Amoxicillin,Amoxicillin 250mg,Antibiotic,Intas,+918336355650,INT5189,2023-07-05,2025-04-19,Strip of 10 tablets,335.52,358,42,Rack B2,TRUE,2024-10-29
+MED111,Metformin,Metformin 500mg,Antidiabetic,Glenmark,+917880236003,GLE5762,2024-07-24,2026-11-04,Strip of 10 tablets,161.65,452,25,Fridge 1,TRUE,2025-04-11
+MED112,Cetirizine,Cetirizine 10mg,Antihistamine,Cipla,+919135990093,CIP1802,2024-04-01,2026-04-23,Strip of 10 tablets,56.28,391,24,Rack C1,TRUE,2025-04-01
+MED113,Montek LC,Montelukast + Levocetirizine,Antiallergic,Sun Pharma,+917652966135,SUN1813,2024-04-01,2026-08-27,Strip of 10 tablets,87.97,319,27,Counter 1,FALSE,2025-07-30
+MED114,Dolo 650,Paracetamol 650mg,Analgesic,Zydus,+919959418715,ZYD1045,2023-04-03,2024-08-13,Strip of 10 tablets,193.89,240,14,Rack C1,FALSE,2025-08-21
+MED115,Atorvastatin,Atorvastatin 10mg,Lipid Lowering,Lupin,+918776002214,LUP1969,2023-01-18,2025-06-28,Strip of 10 tablets,263.89,84,15,Shelf 3,FALSE,2025-09-22
+MED116,Cetirizine,Cetirizine 10mg,Antihistamine,Glenmark,+919745195984,GLE9317,2023-12-17,2025-08-30,Strip of 10 tablets,39.68,351,47,Fridge 1,FALSE,2024-06-02
+MED117,Calpol,Paracetamol 500mg,Analgesic,Sun Pharma,+918468379989,SUN3090,2024-04-10,2025-07-09,Strip of 10 tablets,318.2,302,41,Shelf 1,FALSE,2024-12-26
+MED118,Amoxicillin,Amoxicillin 250mg,Antibiotic,Sun Pharma,+919344185961,SUN7273,2023-12-15,2025-07-11,Strip of 10 tablets,237.06,418,49,Rack A1,FALSE,2025-07-20
+MED119,Pantoprazole,Pantoprazole 40mg,Antacid,Lupin,+919901999506,LUP7580,2024-09-09,2027-02-17,Strip of 10 tablets,182.51,193,36,Shelf 2,FALSE,2025-05-17
+MED120,Ecosprin,Aspirin 75mg,Antiplatelet,Intas,+919930307598,INT7132,2024-06-14,2026-01-19,Strip of 10 tablets,290.3,207,28,Rack B1,FALSE,2025-05-26
+MED121,Paracetamol,Paracetamol 500mg,Analgesic,Mankind Pharma,+918499261512,MAN5531,2023-07-15,2025-10-28,Strip of 10 tablets,69.17,75,33,Shelf 3,TRUE,2024-07-18
+MED122,Dolo 650,Paracetamol 650mg,Analgesic,Torrent Pharma,+919810696843,TOR4949,2023-01-06,2024-06-12,Strip of 10 tablets,284.01,164,35,Shelf 3,FALSE,2025-03-11
+MED123,Ciprofloxacin,Ciprofloxacin 500mg,Antibiotic,Sun Pharma,+918119382327,SUN8489,2024-12-03,2026-06-05,Strip of 10 tablets,91.42,484,34,Rack B1,FALSE,2024-07-19
+MED124,Paracetamol,Paracetamol 500mg,Analgesic,Sun Pharma,+918940072979,SUN3354,2024-10-26,2026-04-11,Strip of 10 tablets,151.72,300,35,Shelf 2,TRUE,2025-03-24
+MED125,Telma,Telmisartan 40mg,Antihypertensive,Zydus,+917375166948,ZYD7308,2024-07-25,2026-10-10,Strip of 10 tablets,300.62,199,21,Fridge 1,FALSE,2025-07-29
+MED126,Augmentin,Amoxicillin + Clavulanic Acid,Antibiotic,Mankind Pharma,+919499957964,MAN2701,2023-08-01,2025-05-30,Strip of 10 tablets,137.0,192,42,Rack A1,FALSE,2024-06-19
+MED127,Glycomet,Metformin 500mg,Antidiabetic,Dr. Reddy's,+917869801156,DR.3845,2023-12-27,2026-04-25,Strip of 10 tablets,336.4,121,36,Rack A1,TRUE,2025-07-23
+MED128,Montek LC,Montelukast + Levocetirizine,Antiallergic,Torrent Pharma,+919579290282,TOR2390,2023-03-22,2024-09-05,Strip of 10 tablets,254.43,445,37,Rack A1,TRUE,2024-11-01
+MED129,Losartan,Losartan 50mg,Antihypertensive,Mankind Pharma,+917952657377,MAN8896,2024-05-04,2026-10-06,Strip of 10 tablets,80.98,244,29,Rack A2,FALSE,2024-09-09
+MED130,Calpol,Paracetamol 500mg,Analgesic,Cipla,+918868644764,CIP7519,2023-01-14,2025-04-23,Strip of 10 tablets,31.86,331,33,Shelf 3,FALSE,2025-07-13
+MED131,Calpol,Paracetamol 500mg,Analgesic,Sun Pharma,+918969531263,SUN9479,2024-01-24,2026-04-14,Strip of 10 tablets,161.86,19,30,Rack A2,FALSE,2025-06-25
+MED132,Ciprofloxacin,Ciprofloxacin 500mg,Antibiotic,Abbott India,+918827490420,ABB9419,2023-12-08,2025-10-18,Strip of 10 tablets,249.62,146,31,Fridge 1,FALSE,2025-09-30
+MED133,Atorvastatin,Atorvastatin 10mg,Lipid Lowering,Abbott India,+918841605795,ABB6930,2023-05-30,2025-02-28,Strip of 10 tablets,263.04,226,17,Fridge 1,FALSE,2025-04-09
+MED134,Amoxicillin,Amoxicillin 250mg,Antibiotic,Sun Pharma,+918577587514,SUN4786,2023-11-18,2025-01-13,Strip of 10 tablets,186.27,220,25,Shelf 3,FALSE,2025-02-25
+MED135,Ciprofloxacin,Ciprofloxacin 500mg,Antibiotic,Sun Pharma,+918620123397,SUN3461,2024-01-10,2025-12-01,Strip of 10 tablets,101.89,233,24,Shelf 3,TRUE,2025-01-07
+MED136,Crocin,Paracetamol 500mg,Analgesic,Dr. Reddy's,+918923868210,DR.8252,2023-02-10,2025-03-14,Strip of 10 tablets,172.95,33,17,Rack C1,TRUE,2025-05-21
+MED137,Azithromycin,Azithromycin 500mg,Antibiotic,Mankind Pharma,+919745912696,MAN9521,2023-01-11,2025-06-04,Strip of 10 tablets,122.0,12,28,Rack C1,TRUE,2024-07-19
+MED138,Metformin,Metformin 500mg,Antidiabetic,Zydus,+917447686267,ZYD4086,2023-02-21,2024-07-12,Strip of 10 tablets,336.59,444,47,Fridge 1,FALSE,2025-09-28
+MED139,Pantoprazole,Pantoprazole 40mg,Antacid,Abbott India,+917519683280,ABB5798,2024-05-24,2026-01-04,Strip of 10 tablets,138.37,481,41,Rack B1,FALSE,2025-01-01
+MED140,Augmentin,Amoxicillin + Clavulanic Acid,Antibiotic,Mankind Pharma,+918358682343,MAN8772,2023-02-09,2025-02-04,Strip of 10 tablets,227.37,319,29,Rack B2,TRUE,2025-06-03
+MED141,Calpol,Paracetamol 500mg,Analgesic,Cipla,+917446432727,CIP4995,2024-07-05,2026-04-23,Strip of 10 tablets,269.8,138,21,Shelf 3,TRUE,2024-06-08
+MED142,Metformin,Metformin 500mg,Antidiabetic,Cipla,+919181325731,CIP9836,2023-08-31,2025-08-03,Strip of 10 tablets,120.65,437,11,Shelf 1,FALSE,2025-03-10
+MED143,Amoxicillin,Amoxicillin 250mg,Antibiotic,Abbott India,+919146424453,ABB6023,2024-03-07,2026-06-15,Strip of 10 tablets,111.53,42,34,Rack A2,TRUE,2024-10-06
+MED144,Ecosprin,Aspirin 75mg,Antiplatelet,Intas,+919280188144,INT6203,2023-03-09,2024-08-21,Strip of 10 tablets,242.69,391,12,Rack B1,TRUE,2025-04-26
+MED145,Glycomet,Metformin 500mg,Antidiabetic,Glenmark,+917788233523,GLE1196,2024-06-14,2026-05-15,Strip of 10 tablets,186.2,12,28,Rack A1,TRUE,2025-09-18
+MED146,Telma,Telmisartan 40mg,Antihypertensive,Zydus,+917668196112,ZYD9238,2023-12-30,2025-09-11,Strip of 10 tablets,241.34,311,20,Rack A1,FALSE,2025-08-15
+MED147,Diclofenac,Diclofenac 50mg,Pain Relief,Zydus,+917545834845,ZYD8663,2024-02-17,2025-10-15,Strip of 10 tablets,209.76,408,10,Rack C1,FALSE,2025-06-08
+MED148,Omeprazole,Omeprazole 20mg,Antacid,Intas,+919001274738,INT9831,2024-02-29,2025-06-03,Strip of 10 tablets,273.09,124,30,Shelf 1,FALSE,2024-09-01
+MED149,Metformin,Metformin 500mg,Antidiabetic,Torrent Pharma,+917021730753,TOR3413,2023-06-21,2024-10-02,Strip of 10 tablets,219.9,265,26,Shelf 3,FALSE,2025-03-13
+MED150,Paracetamol,Paracetamol 500mg,Analgesic,Glenmark,+917632011041,GLE5947,2024-04-29,2025-08-25,Strip of 10 tablets,95.02,272,21,Rack A1,TRUE,2025-04-01
+MED151,Glycomet,Metformin 500mg,Antidiabetic,Mankind Pharma,+918494118755,MAN8910,2023-08-29,2025-02-10,Strip of 10 tablets,123.34,395,17,Counter 1,TRUE,2025-03-29
+MED152,Losartan,Losartan 50mg,Antihypertensive,Sun Pharma,+919599481492,SUN1942,2024-07-01,2026-05-19,Strip of 10 tablets,287.05,191,18,Rack A2,TRUE,2024-08-13
+MED153,Metformin,Metformin 500mg,Antidiabetic,Sun Pharma,+919869971475,SUN5082,2024-09-05,2026-01-06,Strip of 10 tablets,136.24,498,26,Rack A2,FALSE,2025-07-31
+MED154,Omeprazole,Omeprazole 20mg,Antacid,Dr. Reddy's,+917355858688,DR.6789,2023-03-26,2024-10-30,Strip of 10 tablets,82.11,148,45,Rack A1,TRUE,2025-01-04
+MED155,Crocin,Paracetamol 500mg,Analgesic,Intas,+918025213357,INT3969,2024-07-21,2025-11-12,Strip of 10 tablets,54.27,310,20,Rack A2,TRUE,2025-05-02
+MED156,Ecosprin,Aspirin 75mg,Antiplatelet,Cipla,+919734254797,CIP1049,2024-03-27,2025-06-18,Strip of 10 tablets,296.02,19,20,Fridge 1,TRUE,2025-07-02
+MED157,Paracetamol,Paracetamol 500mg,Analgesic,Abbott India,+918892960491,ABB4812,2024-09-11,2026-09-23,Strip of 10 tablets,55.7,55,14,Counter 1,FALSE,2025-03-19
+MED158,Omeprazole,Omeprazole 20mg,Antacid,Intas,+919840986595,INT1080,2024-07-22,2026-12-28,Strip of 10 tablets,188.5,145,25,Shelf 2,FALSE,2025-06-21
+MED159,Ecosprin,Aspirin 75mg,Antiplatelet,Cipla,+919483372087,CIP1655,2023-02-05,2025-04-05,Strip of 10 tablets,68.75,429,11,Rack B1,TRUE,2024-12-31
+MED160,Amoxicillin,Amoxicillin 250mg,Antibiotic,Mankind Pharma,+918113133602,MAN6065,2023-03-17,2024-07-05,Strip of 10 tablets,213.33,345,20,Rack A2,TRUE,2024-08-14
+MED161,Azithromycin,Azithromycin 500mg,Antibiotic,Cipla,+919749067244,CIP9472,2023-10-21,2024-10-27,Strip of 10 tablets,77.89,495,35,Rack C1,TRUE,2024-11-21
+MED162,Ecosprin,Aspirin 75mg,Antiplatelet,Sun Pharma,+919566420241,SUN2212,2024-04-30,2026-07-15,Strip of 10 tablets,339.06,131,31,Shelf 1,FALSE,2025-08-16
+MED163,Omeprazole,Omeprazole 20mg,Antacid,Torrent Pharma,+919617317261,TOR3235,2024-01-12,2025-12-02,Strip of 10 tablets,111.39,489,19,Fridge 1,FALSE,2025-05-21
+MED164,Augmentin,Amoxicillin + Clavulanic Acid,Antibiotic,Cipla,+918539436193,CIP4806,2024-12-03,2027-02-16,Strip of 10 tablets,242.36,14,16,Shelf 3,TRUE,2024-11-09
+MED165,Amoxicillin,Amoxicillin 250mg,Antibiotic,Cipla,+918228161054,CIP1718,2024-10-08,2026-01-09,Strip of 10 tablets,165.15,134,16,Rack B1,TRUE,2024-10-01
+MED166,Crocin,Paracetamol 500mg,Analgesic,Cipla,+918309750787,CIP3786,2024-10-21,2026-12-21,Strip of 10 tablets,84.45,196,19,Shelf 1,TRUE,2025-07-07
+MED167,Ecosprin,Aspirin 75mg,Antiplatelet,Cipla,+918657948879,CIP1251,2024-03-01,2025-09-28,Strip of 10 tablets,295.73,494,21,Rack C1,FALSE,2025-05-17
+MED168,Montek LC,Montelukast + Levocetirizine,Antiallergic,Dr. Reddy's,+918851773542,DR.6090,2024-06-13,2026-05-14,Strip of 10 tablets,198.29,200,18,Rack C1,TRUE,2025-04-18
+MED169,Losartan,Losartan 50mg,Antihypertensive,Mankind Pharma,+917030372452,MAN8167,2023-08-28,2024-10-07,Strip of 10 tablets,267.81,33,28,Rack C1,FALSE,2024-10-11
+MED170,Azithromycin,Azithromycin 500mg,Antibiotic,Abbott India,+918760641540,ABB3035,2024-12-30,2026-04-27,Strip of 10 tablets,44.46,105,14,Rack A2,TRUE,2024-08-28
+MED171,Glycomet,Metformin 500mg,Antidiabetic,Dr. Reddy's,+917950704663,DR.4431,2023-08-31,2025-07-24,Strip of 10 tablets,276.36,353,41,Rack C1,TRUE,2024-08-18
+MED172,Losartan,Losartan 50mg,Antihypertensive,Torrent Pharma,+917809332438,TOR6908,2023-08-19,2025-09-21,Strip of 10 tablets,277.97,450,22,Rack B1,TRUE,2025-05-16
+MED173,Crocin,Paracetamol 500mg,Analgesic,Zydus,+917679005602,ZYD1258,2023-08-18,2025-11-06,Strip of 10 tablets,94.98,255,22,Fridge 1,TRUE,2024-11-23
+MED174,Calpol,Paracetamol 500mg,Analgesic,Intas,+919526768037,INT9475,2024-12-23,2026-01-18,Strip of 10 tablets,342.97,153,36,Rack A2,FALSE,2025-04-24
+MED175,Augmentin,Amoxicillin + Clavulanic Acid,Antibiotic,Zydus,+919352918077,ZYD8506,2023-12-05,2025-01-19,Strip of 10 tablets,213.66,459,23,Fridge 1,FALSE,2025-03-13
+MED176,Losartan,Losartan 50mg,Antihypertensive,Abbott India,+917952406602,ABB6985,2024-04-24,2025-09-29,Strip of 10 tablets,157.38,179,42,Rack B1,FALSE,2024-07-18
+MED177,Cetirizine,Cetirizine 10mg,Antihistamine,Glenmark,+919814648302,GLE2020,2023-01-24,2024-02-25,Strip of 10 tablets,26.51,218,25,Shelf 2,FALSE,2024-07-19
+MED178,Dolo 650,Paracetamol 650mg,Analgesic,Cipla,+918989759600,CIP2443,2024-06-23,2026-10-10,Strip of 10 tablets,226.22,25,27,Rack A2,FALSE,2024-12-03
+MED179,Metformin,Metformin 500mg,Antidiabetic,Torrent Pharma,+918127603269,TOR6414,2023-08-09,2025-02-13,Strip of 10 tablets,234.3,176,32,Rack A1,TRUE,2024-12-18
+MED180,Omeprazole,Omeprazole 20mg,Antacid,Cipla,+917152332063,CIP7238,2023-03-28,2025-06-23,Strip of 10 tablets,32.16,467,11,Rack C1,FALSE,2025-03-08
+MED181,Metformin,Metformin 500mg,Antidiabetic,Lupin,+918562995612,LUP8219,2024-07-16,2026-04-07,Strip of 10 tablets,89.86,44,24,Rack B1,FALSE,2024-11-29
+MED182,Atorvastatin,Atorvastatin 10mg,Lipid Lowering,Zydus,+918691358644,ZYD5554,2024-06-20,2025-07-09,Strip of 10 tablets,33.72,232,50,Shelf 3,FALSE,2024-06-01
+MED183,Augmentin,Amoxicillin + Clavulanic Acid,Antibiotic,Mankind Pharma,+917690517237,MAN7801,2023-05-25,2025-08-29,Strip of 10 tablets,263.12,215,48,Rack B1,TRUE,2025-09-20
+MED184,Omeprazole,Omeprazole 20mg,Antacid,Glenmark,+917129305760,GLE4430,2024-07-26,2026-04-26,Strip of 10 tablets,258.3,388,49,Rack A2,TRUE,2024-06-17
+MED185,Montek LC,Montelukast + Levocetirizine,Antiallergic,Intas,+917631573338,INT3681,2023-07-16,2025-10-02,Strip of 10 tablets,154.89,232,36,Rack A2,TRUE,2024-07-10
+MED186,Omeprazole,Omeprazole 20mg,Antacid,Sun Pharma,+919127958446,SUN1604,2023-02-12,2024-07-04,Strip of 10 tablets,27.73,204,25,Shelf 3,FALSE,2025-09-19
+MED187,Pantoprazole,Pantoprazole 40mg,Antacid,Torrent Pharma,+919038696969,TOR7984,2024-06-13,2025-10-07,Strip of 10 tablets,180.3,72,24,Shelf 1,FALSE,2025-09-24
+MED188,Calpol,Paracetamol 500mg,Analgesic,Sun Pharma,+917910600849,SUN7857,2023-01-21,2025-04-25,Strip of 10 tablets,128.27,404,46,Shelf 2,TRUE,2024-07-14
+MED189,Dolo 650,Paracetamol 650mg,Analgesic,Glenmark,+917056865873,GLE7329,2023-07-09,2024-11-27,Strip of 10 tablets,127.37,98,11,Rack B1,FALSE,2025-08-18
+MED190,Pantoprazole,Pantoprazole 40mg,Antacid,Intas,+918653039417,INT2155,2023-09-01,2025-08-08,Strip of 10 tablets,333.63,48,20,Shelf 1,TRUE,2025-06-06
+MED191,Omeprazole,Omeprazole 20mg,Antacid,Zydus,+918446006189,ZYD6723,2023-09-15,2026-02-20,Strip of 10 tablets,178.72,84,36,Shelf 1,FALSE,2025-08-24
+MED192,Losartan,Losartan 50mg,Antihypertensive,Intas,+919367538842,INT4793,2023-03-21,2025-01-23,Strip of 10 tablets,299.21,248,29,Shelf 3,FALSE,2025-06-29
+MED193,Calpol,Paracetamol 500mg,Analgesic,Lupin,+919020670203,LUP1577,2024-04-21,2025-12-22,Strip of 10 tablets,296.3,371,26,Rack A1,FALSE,2025-05-26
+MED194,Dolo 650,Paracetamol 650mg,Analgesic,Abbott India,+917015473378,ABB1246,2023-06-17,2025-05-04,Strip of 10 tablets,286.67,109,50,Rack C1,FALSE,2024-06-15
+MED195,Ecosprin,Aspirin 75mg,Antiplatelet,Dr. Reddy's,+918480854109,DR.8701,2023-04-28,2025-08-08,Strip of 10 tablets,27.42,227,22,Rack B2,FALSE,2025-04-03
+MED196,Allegra,Fexofenadine 120mg,Antihistamine,Lupin,+919215301796,LUP9240,2023-07-14,2025-09-19,Strip of 10 tablets,49.87,376,30,Shelf 1,TRUE,2025-03-15
+MED197,Pantoprazole,Pantoprazole 40mg,Antacid,Glenmark,+919151459535,GLE4296,2023-11-25,2026-05-05,Strip of 10 tablets,334.1,190,36,Counter 1,TRUE,2024-08-14
+MED198,Calpol,Paracetamol 500mg,Analgesic,Zydus,+918125880872,ZYD7754,2023-01-07,2024-10-29,Strip of 10 tablets,284.15,187,37,Shelf 3,FALSE,2024-09-04
+MED199,Atorvastatin,Atorvastatin 10mg,Lipid Lowering,Sun Pharma,+918735600249,SUN3913,2023-05-10,2024-06-24,Strip of 10 tablets,70.2,342,35,Rack B2,TRUE,2025-04-11
+MED200,Telma,Telmisartan 40mg,Antihypertensive,Lupin,+918335631090,LUP2638,2023-08-07,2025-05-23,Strip of 10 tablets,253.64,378,34,Shelf 1,FALSE,2024-06-17
