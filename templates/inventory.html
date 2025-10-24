@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medicine Inventory</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        h2 {
+            color: #333;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-control, .form-select {
+            border-radius: 10px;
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s ease;
+        }
+
+        .form-control:focus, .form-select:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+        }
+
+        .btn {
+            border-radius: 10px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-warning {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            border: none;
+        }
+
+        .btn-warning:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(240, 147, 251, 0.4);
+        }
+
+        .btn-danger:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(220, 53, 69, 0.4);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            border: none;
+        }
+
+        .btn-success:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(17, 153, 142, 0.4);
+        }
+
+        .table {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .table-dark {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .table-dark th {
+            border: none;
+        }
+
+        .table tbody tr {
+            transition: all 0.2s ease;
+        }
+
+        .table tbody tr:hover {
+            background-color: rgba(102, 126, 234, 0.1);
+            transform: scale(1.01);
+        }
+
+        tr.selected {
+            background-color: #d4edda;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="text-center mb-4">💊 Medicine Inventory</h2>
+    <!-- 🔎 Filter/Search Section -->
+    <form method="get" action="/show" class="mb-4">
+        <div class="row g-2">
+            <div class="col-md-3">
+                <input type="text" name="search" class="form-control" placeholder="Search medicine..." value="{{ search }}">
+            </div>
+            <div class="col-md-3">
+                <select name="composition" class="form-select">
+                    <option value="">Filter by Composition</option>
+                    {% for comp in compositions %}
+                        <option value="{{ comp }}">{{ comp }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select name="category" class="form-select">
+                    <option value="">Filter by Category</option>
+                    {% for cat in categories %}
+                        <option value="{{ cat }}">{{ cat }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-2">
+                <input type="number" name="unit_price" step="0.01" class="form-control" placeholder="Max Price">
+            </div>
+            <div class="col-md-1">
+                <button type="submit" class="btn btn-primary w-100">Apply</button>
+            </div>
+        </div>
+    </form>
+    <!-- 🛒 Cart Button -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <a href="/billing" class="btn btn-warning">🧾 Go to Cart / Checkout</a>
+        <a href="/clear_cart" class="btn btn-danger">🗑 Clear Cart</a>
+    </div>
+    <!-- 📋 Medicine Table -->
+    <table class="table table-bordered table-striped text-center align-middle">
+        <thead class="table-dark">
+            <tr>
+                {% for col in table[0].keys() %}
+                    <th>{{ col }}</th>
+                {% endfor %}
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in table %}
+                <tr>
+                    {% for val in row.values() %}
+                        <td>{{ val }}</td>
+                    {% endfor %}
+                    <td>
+                        <a href="/add_to_cart/{{ row['medicine_id'] }}" class="btn btn-success btn-sm" onclick="showToast(event)">Add to Cart</a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <script>
+        // Show toast notification after page loads if item was added
+        window.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            if (document.referrer.includes('/add_to_cart/')) {
+                showToast();
+            }
+        });
+
+        function showToast() {
+            const toastElement = document.getElementById('cartToast');
+            toastElement.style.display = 'block';
+            toastElement.classList.add('show');
+
+            setTimeout(function() {
+                toastElement.classList.remove('show');
+                setTimeout(function() {
+                    toastElement.style.display = 'none';
+                }, 300);
+            }, 2000);
+        }
+    </script>
+</body>
+</html>
+
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <title>Medicine Inventory</title>-->
+<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">-->
+<!--    <style>-->
+<!--        body {-->
+<!--            padding: 20px;-->
+<!--            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);-->
+<!--            min-height: 100vh;-->
+<!--        }-->
+
+<!--        h2 {-->
+<!--            color: #333;-->
+<!--            font-weight: bold;-->
+<!--            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);-->
+<!--        }-->
+
+<!--        .form-control, .form-select {-->
+<!--            border-radius: 10px;-->
+<!--            border: 2px solid #e0e0e0;-->
+<!--            transition: all 0.3s ease;-->
+<!--        }-->
+
+<!--        .form-control:focus, .form-select:focus {-->
+<!--            border-color: #667eea;-->
+<!--            box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);-->
+<!--        }-->
+
+<!--        .btn {-->
+<!--            border-radius: 10px;-->
+<!--            font-weight: 600;-->
+<!--            transition: all 0.3s ease;-->
+<!--        }-->
+
+<!--        .btn-primary {-->
+<!--            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);-->
+<!--            border: none;-->
+<!--        }-->
+
+<!--        .btn-primary:hover {-->
+<!--            transform: translateY(-2px);-->
+<!--            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);-->
+<!--        }-->
+
+<!--        .btn-warning {-->
+<!--            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);-->
+<!--            color: white;-->
+<!--            border: none;-->
+<!--        }-->
+
+<!--        .btn-warning:hover {-->
+<!--            transform: translateY(-2px);-->
+<!--            box-shadow: 0 5px 15px rgba(240, 147, 251, 0.4);-->
+<!--        }-->
+
+<!--        .btn-danger:hover {-->
+<!--            transform: translateY(-2px);-->
+<!--            box-shadow: 0 5px 15px rgba(220, 53, 69, 0.4);-->
+<!--        }-->
+
+<!--        .btn-success {-->
+<!--            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);-->
+<!--            border: none;-->
+<!--        }-->
+
+<!--        .btn-success:hover {-->
+<!--            transform: scale(1.05);-->
+<!--            box-shadow: 0 5px 15px rgba(17, 153, 142, 0.4);-->
+<!--        }-->
+
+<!--        .table {-->
+<!--            background: white;-->
+<!--            border-radius: 15px;-->
+<!--            overflow: hidden;-->
+<!--            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);-->
+<!--        }-->
+
+<!--        .table-dark {-->
+<!--            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);-->
+<!--        }-->
+
+<!--        .table-dark th {-->
+<!--            border: none;-->
+<!--        }-->
+
+<!--        .table tbody tr {-->
+<!--            transition: all 0.2s ease;-->
+<!--        }-->
+
+<!--        .table tbody tr:hover {-->
+<!--            background-color: rgba(102, 126, 234, 0.1);-->
+<!--            transform: scale(1.01);-->
+<!--        }-->
+
+<!--        tr.selected {-->
+<!--            background-color: #d4edda;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h2 class="text-center mb-4">💊 Medicine Inventory</h2>-->
+    <!-- 🔎 Filter/Search Section -->
+<!--    <form method="get" action="/show" class="mb-4">-->
+<!--        <div class="row g-2">-->
+<!--            <div class="col-md-3">-->
+<!--                <input type="text" name="search" class="form-control" placeholder="Search medicine..." value="{{ search }}">-->
+<!--            </div>-->
+<!--            <div class="col-md-3">-->
+<!--                <select name="composition" class="form-select">-->
+<!--                    <option value="">Filter by Composition</option>-->
+<!--                    {% for comp in compositions %}-->
+<!--                        <option value="{{ comp }}">{{ comp }}</option>-->
+<!--                    {% endfor %}-->
+<!--                </select>-->
+<!--            </div>-->
+<!--            <div class="col-md-3">-->
+<!--                <select name="category" class="form-select">-->
+<!--                    <option value="">Filter by Category</option>-->
+<!--                    {% for cat in categories %}-->
+<!--                        <option value="{{ cat }}">{{ cat }}</option>-->
+<!--                    {% endfor %}-->
+<!--                </select>-->
+<!--            </div>-->
+<!--            <div class="col-md-2">-->
+<!--                <input type="number" name="unit_price" step="0.01" class="form-control" placeholder="Max Price">-->
+<!--            </div>-->
+<!--            <div class="col-md-1">-->
+<!--                <button type="submit" class="btn btn-primary w-100">Apply</button>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </form>-->
+    <!-- 🛒 Cart Button -->
+<!--    <div class="d-flex justify-content-between align-items-center mb-3">-->
+<!--        <a href="/billing" class="btn btn-warning">🧾 Go to Cart / Checkout</a>-->
+<!--        <a href="/clear_cart" class="btn btn-danger">🗑 Clear Cart</a>-->
+<!--    </div>-->
+    <!-- 📋 Medicine Table -->
+<!--    <table class="table table-bordered table-striped text-center align-middle">-->
+<!--        <thead class="table-dark">-->
+<!--            <tr>-->
+<!--                {% for col in table[0].keys() %}-->
+<!--                    <th>{{ col }}</th>-->
+<!--                {% endfor %}-->
+<!--                <th>Action</th>-->
+<!--            </tr>-->
+<!--        </thead>-->
+<!--        <tbody>-->
+<!--            {% for row in table %}-->
+<!--                <tr>-->
+<!--                    {% for val in row.values() %}-->
+<!--                        <td>{{ val }}</td>-->
+<!--                    {% endfor %}-->
+<!--                    <td>-->
+<!--                        <a href="/add_to_cart/{{ row['medicine_id'] }}" class="btn btn-success btn-sm">Add to Cart</a>-->
+<!--                    </td>-->
+<!--                </tr>-->
+<!--            {% endfor %}-->
+<!--        </tbody>-->
+<!--    </table>-->
+<!--</body>-->
+<!--</html>-->
+
+
+
